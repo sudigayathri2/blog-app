@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+h2{
+    color: rgb(189, 117, 9);
+}
+label.form-check-label{
+    color:brown;
+}

@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #000000;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand img.logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .navbar-title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .blog-title {
+    color: #ff9900;
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ff9900;
+    background-color: #495057;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: #ff9900;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%);
+  }
+  

@@ -1,0 +1,52 @@
+.container {
+    padding-top: 20px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(233, 229, 229, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(236, 230, 230, 0.2);
+  }
+  
+  .card-text {
+    
+    font-size: 25px;
+  }
+  .card-text:hover {
+    color: #be8c00;
+    font-size: 27px;
+  }
+  
+  .bg-secondary-subtle {
+    background-color: #f8f9fa;
+    color: #000306;
+  }
+  
+  .text-light {
+    color: #fff !important;
+    background-color: #000306;
+  }
+  
+  .fw-semibold {
+    font-weight: 600;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem;
+  }
+  
+  .mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
